@@ -1,0 +1,55 @@
+.sidebar{
+    
+    display :flex;
+    flex-direction: column;
+    flex: 0.35;
+    cursor: pointer;
+  
+}
+
+
+.sidebar_header{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+ border-right: 1px solid lightgray;  cursor: pointer;
+ 
+}
+
+.sidebar_headerRight{
+   width: 50%;
+   display: flex;  cursor: pointer;
+   justify-content: space-around;
+ 
+}
+
+ 
+.sidebar_search{
+    display: flex;
+    background-color: #f6f6f6c5;
+    align-items: center;
+    height: 39px;
+    padding: 10px;   justify-content: center;
+    
+ 
+cursor: pointer;
+}
+
+.sidebar_search_Container{  
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+   width: 100%;
+   justify-content: space-around;
+}
+.sidebar_search_Container input{
+    border: none;
+    width: 80%;
+    height:40px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+ 
